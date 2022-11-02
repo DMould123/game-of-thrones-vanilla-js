@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta
+    name="description"
+    content="A feedback page to leave comments on the website content"
+  />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#"
+              ><u>Game of Thrones Quote Generator</u></a
+            >
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a href="index.html"><i class="fa fa-home"></i></a>
+            </li>
+            <li><a href="characters.html">Characters</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="container">
+        <form onsubmit="alert('Thanks for your feedback!')">
+          <div class="form-content">
+            <label for="firstName"></label>
+            <input type="text" id="firstName" name="firstName" placeholder=" First Name" />
+          </div>
+
+          <div class="form-content">
+            <label for="Surname"></label>
+            <input type="text" id="Surname" name="Surname" placeholder="Surname" />
+          </div>
+
+          <div class="form-content">
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="E-mail" />
+          </div>
+          <div class="form-content">
+            <label for="feedback"></label>
+            <textarea
+              name="feedback"
+              id="feedback"
+              cols="30"
+              rows="10"
+              placeholder="Leave feedback and your own quote suggestions"
+            ></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <img src="GoT WIC.jpg" alt="wic" class="wic" />
+    <footer class="footer">
+      <p>© David Mould 2022 ©</p>
+    </footer>
+  </div>
+</body>
+<script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</html>
